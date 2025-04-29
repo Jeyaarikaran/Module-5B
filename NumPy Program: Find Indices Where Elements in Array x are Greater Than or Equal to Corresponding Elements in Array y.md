@@ -1,21 +1,34 @@
 # # NumPy Program: Find Indices Where Elements in Array x are Greater Than or Equal to Corresponding Elements in Array y
 
-## 🎯 Aim
-To write a Python program using **NumPy** that finds the indices where elements in array `x` are greater than or equal to their corresponding elements in array `y`.
+## 🎯 Aim :
+To read nine space-separated integers from user input and convert them into a 3×3 NumPy array.
 
-## 🧠 Algorithm
-1. **Import NumPy**: Import the NumPy library.
-2. **Define Arrays**: Define two NumPy arrays, `x` and `y`, with the same shape (i.e., same number of elements).
-3. **Use Boolean Indexing**: 
-   - `x > y` gives a boolean array where elements of `x` are greater than `y`.
-   - `x == y` gives a boolean array where elements of `x` are equal to `y`.
-4. **Find Indices**: Use `np.where()` to get the indices where the conditions `x >= y` are satisfied.
-5. **Print Indices**: Print the indices where the condition holds true.
+## 🧠 Algorithm :
+1.Import the NumPy module.
 
-## 🧾 Program
+2.Take a single line of input (nine integers separated by spaces).
 
-Add code here
+3.Convert the input string to a list of integers using map().
 
-## Output
+4.Use np.array() to convert the list to a NumPy array.
 
-## Result
+5.Use .reshape(3, 3) to convert it into a 3×3 array.
+
+6.Print the resulting array.
+
+## 🧾 Program :
+```.py
+import numpy as np
+a=list(map(int,input().split()))
+arr=np.array(a)
+new=arr.reshape((3,3))
+print(new)
+```
+
+
+## Output :
+![image](https://github.com/user-attachments/assets/c4931f77-d694-4eaf-a1ef-0a03813add20)
+
+
+## Result :
+The program successfully takes a list of 9 integers and converts it into a 3×3 NumPy array.

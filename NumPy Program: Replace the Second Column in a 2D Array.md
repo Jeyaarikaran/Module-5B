@@ -1,5 +1,4 @@
-# NumPy Program: Replace the Second Column in a 2D Array
-
+# Pandas Program:T o carry out the Division mathematics operations for the following two series a1 and a2
 
 ## 🎯 Aim:
 To perform element-wise division between two Pandas Series using vectorized operations.

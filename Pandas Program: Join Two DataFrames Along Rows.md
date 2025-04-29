@@ -1,25 +1,39 @@
-# 🧪 Pandas Program: Join Two DataFrames Along Rows
+# 🧪 Numpy  Program: To create an array of 10 zeros, 10 ones, and 10 fives. 
 
-## 🎯 AIM
+## 🎯 AIM :
+To write a list of records into a CSV file with a header using Python, and then read it back.
 
-To write a Python program using Pandas to **join two DataFrames along rows** (row-wise concatenation) and assign all data to a new DataFrame.
+## 🧠 ALGORITHM :
+1.Import the csv module.
 
----
+2.Define the header and the list of rows.
 
-## 🧠 ALGORITHM
+3.Open a CSV file in write mode and write the header and rows using csv.writer.
 
-1. **Import Libraries**: Import the `pandas` library.
-2. **Create First DataFrame**: Use a dictionary to create `student_data1`.
-3. **Create Second DataFrame**: Use another dictionary to create `student_data2`.
-4. **Concatenate DataFrames**: Use `pd.concat()` with `axis=0` to concatenate both DataFrames row-wise.
-5. **Display Result**: Print the new combined DataFrame.
+4.Open the CSV file in read mode to verify content.
 
----
+5.Read and print the header and rows using csv.reader.
 
-## 💻 Program
 
-Add code here
 
-## Output
+## 💻 Program :
+```.py
+import numpy as np
+print("An array of 10 zeros:")
+z=np.zeros(int(input()))
+print(z)
+print("An array of 10 ones:")
+o=np.ones(int(input()))
+print(o)
+print("An array of 10 fives:")
+m=np.ones(int(input()))
+print(m*5)
+```
 
-## Result
+## Output : 
+
+![image](https://github.com/user-attachments/assets/9126d0d5-31c3-4eb3-8799-20b269e94d81)
+
+
+## Result :
+To create NumPy arrays containing 10 zeros, 10 ones, and 10 fives.

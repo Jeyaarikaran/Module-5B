@@ -1,4 +1,4 @@
-# # NumPy Program: Find Indices Where Elements in Array x are Greater Than or Equal to Corresponding Elements in Array y
+## NumPy Program:Create a numPy program for the following problem statement.
 
 ## 🎯 Aim :
 To read nine space-separated integers from user input and convert them into a 3×3 NumPy array.
